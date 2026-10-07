@@ -21,6 +21,11 @@ __all__ = [
     "AnalysisReport",
     "CodeAnalyzer",
     "ComplexityReport",
+    "TimeTravel",
+    "Snapshot",
+    "ChangeReport",
+    "SnapshotNotFoundError",
 ]
 
 __version__ = "0.1.0"
+from .time_travel import TimeTravel, Snapshot, ChangeReport, SnapshotNotFoundError
